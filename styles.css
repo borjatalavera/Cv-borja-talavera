@@ -20,6 +20,8 @@ body {
     padding-right: 40px;
 }
 .foto {
+    height: 15em;
+    width: 15em;
     border: solid 2px; color: rgb(0, 0, 0);
     border-radius:30px;
 }
@@ -61,6 +63,24 @@ strong {
 h1, h2, h3 {
     margin: 0;
 }
+
+.barra-container {
+    width: 50%; 
+    margin: 50px auto; 
+    border: 1px solid #ddd; 
+}
+
+.progreso-bar {
+    height: 30px; 
+    width: 0; 
+    background-color: #ffffff; 
+}
+
+.ingles{
+    color: #ffffff;
+    padding-left: 38em;
+}
+
 @media all and (max-width: 700px) {
     body {
         font-family: Arial, sans-serif;
